@@ -52,9 +52,11 @@ gdown https://drive.google.com/uc?id=1uxpnJ3Pmmwl-6779qiVJ5JpWwOGl48xt
 2. Download miniImageNet using the above link.
 3. Change configuration file ```./configs.py``` to reflect the correct paths to each dataset. Please see the existing example paths for information on which subfolders these paths should point to.
 4. Train base models on miniImageNet
-- Standard supervised learning on miniImageNet
+- Standard supervised learning on miniImageNet. 
+  
 ```python ./train.py --dataset miniImageNet --model ResNet10  --method baseline --train_aug```
-5. Test 
+5. Test   
+  
 ```python finetune.py --model ResNet10 --method baseline  --train_aug --n_shot 5 ```
 
 6. For testing your own methods, simply replace the function finetune() in finetune.py with your own method. Your method should at least have the following arguments,
