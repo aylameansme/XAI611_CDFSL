@@ -40,9 +40,9 @@ gdown https://drive.google.com/uc?id=1uxpnJ3Pmmwl-6779qiVJ5JpWwOGl48xt
 - Shots: n = {5, 20, 50}
 ---
 ## Enviroment
-- Python 3.5.5
+- Python 3.9
 
-- Pytorch 0.4.1
+- Pytorch 1.13.1
 
 - h5py 2.9.0
 
