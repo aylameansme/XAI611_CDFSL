@@ -54,7 +54,8 @@ gdown https://drive.google.com/uc?id=1uxpnJ3Pmmwl-6779qiVJ5JpWwOGl48xt
 4. Train base models on miniImageNet
 - Standard supervised learning on miniImageNet. 
   
-```python ./train.py --dataset miniImageNet --model ResNet10  --method baseline --train_aug```
+```python ./train.py --dataset miniImageNet --model ResNet10  --method baseline --train_aug``` 
+  
 5. Test   
   
 ```python finetune.py --model ResNet10 --method baseline  --train_aug --n_shot 5 ```
